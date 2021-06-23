@@ -1,0 +1,13 @@
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+th {
+  background-color: black;
+  color: white;
+}
+
+td.light-gray {
+  background-color: rgb(206, 199, 199);
+}
