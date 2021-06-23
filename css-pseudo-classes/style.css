@@ -8,6 +8,6 @@ th {
   color: white;
 }
 
-td.light-gray {
+tr:nth-child(even) {
   background-color: rgb(206, 199, 199);
 }
