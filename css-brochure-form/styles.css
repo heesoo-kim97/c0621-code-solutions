@@ -1,14 +1,41 @@
-/* body {
-  font-family: 'Brandon Grotesque';
+body {
+  font-family: "Brandon Grotesque", sans-serif;
 }
 
-h3 {
+h2 {
   text-align: center;
-  color: rgb(230, 132, 169);
+  font-weight: 300;
+  font-size: 1.5em;
+  color: rgb(236, 142, 118);
 }
 
-div {
+form {
+  width: auto;
   margin: 40px;
   text-align: center;
+  font-family: "AtlasGrotesk", sans-serif;
+  font-size: 0.8em;
 }
-*/
+
+input[type=text],
+select {
+  width: 60%;
+  height: 2.5rem;
+  display: inline-block;
+  border-radius: 8px;
+  border: 0.1em solid rgb(228, 224, 224);
+}
+
+select {
+  background-color: rgba(231, 226, 226, 0.877);
+}
+
+input[type=submit] {
+  width: 8%;
+  text-align: center;
+  border-radius: 16px;
+  background-color: rgb(230, 53, 77);
+  color: white;
+  border: none;
+  height: 1.5rem;
+}
