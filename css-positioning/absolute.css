@@ -33,10 +33,12 @@
   /* your code here */
   position: absolute;
   bottom: 5px;
+}
 
-  .overlay {
-    background: linear-gradient(transparent, rgba(0, 0, 0, 0.75));
+.overlay {
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.75));
+  height: 100%;
+  width: 100%;
 
-    /* your code here */
-  }
+  /* your code here */
 }
