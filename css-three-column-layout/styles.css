@@ -1,4 +1,37 @@
 body {
-  background-color: cornflowerblue;
+  background-color: #4faae7ea;
+  margin: 10%;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+  padding-top: 0%;
+}
+
+.container {
   margin: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.column-full {
+  width: 100%;
+  text-align: center;
+}
+
+.column-third {
+  width: calc(100% / 3);
+  text-align: center;
+  color: white;
+}
+
+img {
+  width: 100px;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #4faae7ea;
+  border-radius: 50%;
 }
