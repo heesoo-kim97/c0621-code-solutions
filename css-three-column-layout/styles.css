@@ -1,12 +1,12 @@
 body {
-  background-color: #4faae7ea;
-  margin: 10%;
+  background-color: #36a3ecea;
+  margin: auto;
 }
 
 h2 {
   text-align: center;
-  color: white;
-  padding-top: 0%;
+  color: rgba(255, 255, 255, 0.966);
+  padding-top: 5%;
 }
 
 .container {
@@ -25,7 +25,9 @@ h2 {
 .column-third {
   width: calc(100% / 3);
   text-align: center;
-  color: white;
+  color: rgba(255, 255, 255, 0.966);
+  padding-left: 3%;
+  padding-right: 3%;
 }
 
 img {
@@ -34,4 +36,8 @@ img {
   background-color: white;
   border: 1px solid #4faae7ea;
   border-radius: 50%;
+}
+
+p {
+  font-size: small;
 }
