@@ -3,13 +3,12 @@ console.log('value of fullName', fullName);
 console.log('typeof fullName', typeof 'Heesoo Shane Kim');
 
 var isCool = true;
-Boolean(isCool);
 console.log('value of isCool', isCool);
 console.log('typeof isCool', typeof true);
 
-var TotalPets = 0;
-console.log('value of TotalPets', TotalPets);
-console.log('typeof TotalPets', typeof 0);
+var totalPets = 0;
+console.log('value of totalPets', totalPets);
+console.log('typeof totalPets', typeof 0);
 
 var unknown = null;
 console.log('value of unknown', unknown);
