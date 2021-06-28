@@ -19,11 +19,11 @@ var vehicle = {
   year: '2021'
 };
 
-vehicle.color = 'white';
-vehicle.isCovertible = false;
+vehicle['color'] = 'white';
+vehicle['isCovertible'] = false;
 
-console.log('the value of vehicle.color:', vehicle.color);
-console.log('the value of vehicle.isConvertible:', vehicle.isConvertible);
+console.log('the value of vehicle["color"]:', vehicle['color']);
+console.log('the value of vehicle["isConvertible"]:', vehicle['isConvertible']);
 console.log('the value of vehicle:', vehicle);
 
 var pet = {
