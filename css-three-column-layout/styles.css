@@ -31,12 +31,16 @@ h2 {
   padding-right: 3%;
 }
 
+.circle {
+  border: 1px solid #4faae7ea;
+  border-radius: 50%;
+  background-color: white;
+  display: inline-block;
+}
+
 img {
   width: 100px;
   padding: 20px;
-  background-color: white;
-  border: 1px solid #4faae7ea;
-  border-radius: 50%;
   margin: auto;
 }
 
