@@ -1,0 +1,60 @@
+body {
+  font-family: "Karla", sans-serif;
+}
+
+h1 {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+p {
+  font-size: small;
+  font-weight: lighter;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-size: small;
+}
+
+.header {
+  text-align: center;
+  padding: 2rem 7rem 1rem 7rem;
+}
+
+.row {
+  display: flex;
+}
+
+.column-half {
+  display: flex;
+  padding: 2rem 3rem 2rem 3rem;
+}
+
+.column-half > img {
+  position: relative;
+  width: 25%;
+}
+
+.top-picture {
+  bottom: 50px;
+  right: 5px;
+}
+
+.bottom-picture {
+  bottom: 40px;
+  right: 5px;
+}
+
+.footer {
+  text-align: center;
+}
+
+button {
+  text-transform: uppercase;
+  color: #962521;
+  border: 0.1em solid #962521;
+  background-color: white;
+  font-size: small;
+  padding: 0.5em 1.5em;
+}
