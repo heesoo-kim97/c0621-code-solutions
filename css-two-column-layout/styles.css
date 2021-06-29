@@ -19,25 +19,16 @@ h3 {
 
 .header {
   text-align: center;
-  padding-top: 2rem;
-  padding-right: 7rem;
-  padding-left: 7rem;
-  padding-bottom: 1rem;
+  padding: 2rem 7rem 1rem 7rem;
 }
 
 .row {
   display: flex;
-
-  /* padding-left: 2rem;
-  padding-right: 2rem; */
 }
 
 .column-half {
   display: flex;
-  padding-left: 3rem;
-  padding-right: 3rem;
-  padding-bottom: 2rem;
-  padding-top: 2rem;
+  padding: 2rem 3rem 2rem 3rem;
 }
 
 .column-half > img {
@@ -45,31 +36,18 @@ h3 {
   width: 25%;
 }
 
-#software {
+.top-picture {
   bottom: 50px;
   right: 5px;
 }
 
-#practice {
-  bottom: 50px;
-  right: 5px;
-}
-
-#circumstance {
-  bottom: 40px;
-  right: 5px;
-}
-
-#data {
+.bottom-picture {
   bottom: 40px;
   right: 5px;
 }
 
 .footer {
-  /* position: relative;
-  border: 3px solid green; */
-  align-items: center;
-  padding-left: 42%;
+  text-align: center;
 }
 
 button {
@@ -78,11 +56,5 @@ button {
   border: 0.1em solid #962521;
   background-color: white;
   font-size: small;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
-  padding-right: 1.5em;
-  padding-left: 1.5em;
-
-  /* position: absolute;
-  right: 25px; */
+  padding: 0.5em 1.5em;
 }
