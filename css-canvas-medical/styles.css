@@ -1,5 +1,13 @@
 
+.container {
+  padding: 50px;
+}
+
 .row {
+  display: flex;
+}
+
+.small-header {
   display: flex;
 }
 
