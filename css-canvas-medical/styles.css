@@ -1,16 +1,21 @@
+body {
+  text-align: center;
+  font-family: "Tiempos Headline", sans-serif;
+}
 
 .container {
-  padding: 50px;
+  /* max-width: 600px; */
 }
 
 .row {
   display: flex;
 }
 
-.small-header {
-  display: flex;
+.column-full {
+  flex-basis: 100%;
 }
 
+/*
 .column-fourth {
   background-color: silver;
 }
@@ -18,4 +23,4 @@
 .footer {
   display: flex;
   padding: 1em;
-}
+}    */
