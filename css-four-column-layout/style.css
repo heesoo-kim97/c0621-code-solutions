@@ -1,0 +1,24 @@
+body {
+  text-align: center;
+}
+
+.container {
+  margin: 15px auto;
+  width: 575px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  padding-left: 10%;
+  padding-right: 25%;
+}
+
+.column {
+  padding-left: 2em;
+}
+
+.phone-pic {
+  padding: 1em;
+  width: 50%;
+}
