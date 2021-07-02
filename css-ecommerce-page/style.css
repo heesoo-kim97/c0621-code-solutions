@@ -1,0 +1,21 @@
+body {
+  font-family: "DM Sans", sans-serif;
+}
+
+.container {
+  margin: auto;
+}
+
+.row {
+  display: flex;
+
+  /* justify-content: center; */
+}
+
+.pictures {
+  flex-basis: 50%;
+}
+
+.gray {
+  color: rgb(229, 232, 232);
+}
