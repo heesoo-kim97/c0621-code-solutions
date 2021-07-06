@@ -1,26 +1,244 @@
-body {
-  text-align: center;
-  font-family: "Tiempos Headline", sans-serif;
-}
 
 .container {
-  /* max-width: 600px; */
+  font-family: 'Avenir', sans-serif;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .row {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-basis: 60%;
 }
 
-.column-full {
+.header {
+  justify-content: center;
+  padding: 20px 60px;
+  border-bottom: 0.5px solid #daeaff;
+  flex-wrap: nowrap;
+}
+
+.canvas {
+  flex-basis: 55%;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+}
+
+.canvas-sign {
+  width: 30%;
+}
+
+.all-link {
+  text-decoration: none;
+  color: white;
+}
+
+.sub-link {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 55%;
+  justify-content: space-evenly;
+  align-items: center;
+  color: rgb(179, 179, 179);
+  font-size: 90%;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.blue-button {
+  color: rgb(223, 223, 223);
+  border: 1px solid #2f4363;
+  border-radius: 3px;
+  background-color: #2f4363;
+}
+
+.contact-us {
+  background-color: #2f4363;
+  padding: 5px 12px;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+.get-started {
+  display: flex;
+  justify-content: center;
+  align-content: stretch;
+  width: 10rem;
+  background-color: #2f4363;
+  border-radius: 3px;
+  padding: 10px 15px;
+  box-sizing: border-box;
+}
+
+.hero-image {
+  background: white;
+  background-image: url("images/hero.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-basis: 100%;
+  margin: 50px;
+  box-sizing: border-box;
+}
+
+.tiempo {
+  font-family: "tiempos headline", sans-serif;
+}
+
+.gradient {
+  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25));
+}
+
+.text-content {
+  flex-basis: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px;
+}
+
+.hero-header,
+.hero-paragraph {
+  color: white;
   flex-basis: 100%;
 }
 
-/*
-.column-fourth {
-  background-color: silver;
+.hero-header > h1 {
+  width: 20rem;
+  font-weight: 450;
+}
+
+.hero-paragraph > p {
+  width: 30rem;
+  line-height: 130%;
+  padding-bottom: 20px;
+}
+
+.third-row {
+  background-color: rgb(247, 247, 247);
+  border-bottom: 0.5px solid rgb(228, 228, 228);
+  color: rgb(110, 110, 110);
+  padding: 45px;
+}
+
+.third-row-top {
+  flex-basis: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.third-row-top > h2,
+.third-row-top > p {
+  flex-basis: 100%;
+  text-align: center;
+  font-weight: 400;
+}
+
+.third-row-top > h2 {
+  flex-basis: 100%;
+}
+
+.third-row-top > p {
+  flex-basis: 40%;
+  margin-bottom: 40px;
+  line-height: 170%;
+}
+
+.third-row-bottom {
+  flex-basis: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 50px;
+  font-weight: 500;
+}
+
+.location {
+  flex-basis: 50%;
+  text-align: center;
+}
+
+.fourth-row-left {
+  flex-basis: 70%;
+  color: rgb(110, 110, 110);
+}
+
+.fourth-row-right {
+  display: flex;
+  align-items: center;
+  flex-basis: 8%;
+}
+
+.fifth-row {
+  background-color: rgb(95, 92, 92);
+  color: white;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.fifth-row-first-column {
+  flex-basis: 50%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.white-version-canvas {
+  flex-basis: 100%;
+  width: 20%;
+  height: 20%;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
+
+.white-version-canvas > img {
+  width: 20%;
+  height: auto;
+}
+
+.fifth-row-first-column > p {
+  font-size: small;
+  display: flex;
+  flex-wrap: wrap;
+  line-height: 150%;
+}
+
+.fifth-row-column-one-third {
+  flex-basis: 15%;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.fifth-row-column-one-third > div {
+  flex-basis: 100%;
+  line-height: 200%;
+}
+
+.bigger {
+  font-size: large;
 }
 
 .footer {
-  display: flex;
-  padding: 1em;
-}    */
+  justify-content: flex-start;
+  color: rgb(67, 67, 67);
+  background-color: rgb(248, 248, 248);
+  padding: 45px 20px;
+}
+
+.footer > div {
+  color: rgb(67, 67, 67));
+  padding-left: 40px;
+
+  /* position: relative;
+  left: 40px; */
+}
