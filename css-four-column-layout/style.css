@@ -1,24 +1,23 @@
-body {
+/* body {
   text-align: center;
-}
+  font-family: "Barlow";
+} */
 
 .container {
-  margin: 15px auto;
-  width: 575px;
+  margin: auto;
+  width: 100%;
+  justify-content: center;
 }
 
 .row {
   display: flex;
   justify-content: center;
+  width: 50%;
   padding-left: 10%;
   padding-right: 25%;
 }
 
 .column {
   padding-left: 2em;
-}
-
-.phone-pic {
-  padding: 1em;
-  width: 50%;
+  flex-basis: 20%;
 }
