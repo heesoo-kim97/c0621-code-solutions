@@ -1,0 +1,57 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+button {
+  border-width: 0;
+  border-radius: 3px;
+  font-size: larger;
+  padding: 0.4rem 1.5rem;
+  margin: 8px;
+  box-sizing: 1px 1px 2px #505050;
+}
+
+button:active {
+  transform: translateY(2px);
+}
+
+.blue-button {
+  color: white;
+  background-color: #4a4ae9;
+}
+
+.survey-container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  background-color: rgba(50, 50, 50, 0.9);
+}
+
+.survey {
+  text-align: center;
+  background-color: white;
+  padding: 2.5rem 2rem;
+  border-radius: 5px;
+}
+
+.red-button {
+  color: white;
+  background-color: #eb5d5d;
+}
+
+h2 {
+  margin-bottom: 3rem;
+}
+
+.hide {
+  display: none;
+}
