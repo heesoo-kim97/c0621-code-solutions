@@ -1,0 +1,55 @@
+body {
+  background-color: #f6f7f9;
+  font-family: Barlow, sans-serif;
+}
+
+.container {
+  margin: auto;
+  width: 1300px;
+}
+
+.row {
+  display: flex;
+}
+
+.header {
+  flex-basis: 100%;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+}
+
+.four-column {
+  flex-basis: 25%;
+}
+
+.bold {
+  font-weight: 800;
+}
+
+h1,
+h2 {
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 15px;
+}
+
+p {
+  font-size: 14px;
+  margin-top: 2rem;
+  font-weight: 450;
+}
+
+.extra {
+  flex-direction: column;
+  text-align: center;
+  margin: 1rem;
+}
+
+.icon {
+  width: 20%;
+}
