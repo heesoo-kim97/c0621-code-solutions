@@ -1,23 +1,50 @@
-/* body {
-  text-align: center;
-  font-family: "Barlow";
-} */
+body {
+  background-color: #f6f7f9;
+  font-family: Barlow, sans-serif;
+}
 
 .container {
   margin: auto;
-  width: 100%;
-  justify-content: center;
+  width: 1300px;
 }
 
 .row {
   display: flex;
-  justify-content: center;
-  width: 50%;
-  padding-left: 10%;
-  padding-right: 25%;
 }
 
-.column {
-  padding-left: 2em;
-  flex-basis: 20%;
+.header {
+  flex-basis: 100%;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+}
+
+.four-column {
+  flex-basis: 25%;
+}
+
+.bold {
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 15px;
+}
+
+p {
+  font-size: 14px;
+  margin-top: 2rem;
+  font-weight: 450;
+}
+
+.extra {
+  flex-direction: column;
+  text-align: center;
+  margin: 1rem;
+}
+
+.icon {
+  width: 20%;
 }
