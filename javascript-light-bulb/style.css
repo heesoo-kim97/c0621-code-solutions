@@ -1,0 +1,33 @@
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0%;
+}
+
+button {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  border-width: 0;
+}
+
+body.switchOn {
+  background-color: #fef9f1;
+}
+
+button.switchOn {
+  background-color: rgb(250, 250, 83);
+  box-shadow: 0 0 15px 0 yellow;
+}
+
+body.switchOff {
+  background-color: #111;
+}
+
+button.switchOff {
+  background-color: #252525;
+  box-shadow: 0 -8px 0 8px #0c0c0c;
+}
