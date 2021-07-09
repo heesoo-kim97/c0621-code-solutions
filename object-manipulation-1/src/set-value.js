@@ -1,4 +1,4 @@
 /* exported setValue */
 function setValue(object, key, value) {
-  return object[value];
+  object[key] = value;
 }
