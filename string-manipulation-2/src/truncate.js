@@ -1,11 +1,14 @@
 /* exported truncate */
 function truncate(length, string) {
-  var shortVersion = '';
-  if (string !== '') {
-    for (var i = 0; i < length; i++) {
-      shortVersion += string[i];
+  var truncated = '';
+  for (var i = 0; i < length; i++) {
+    if (string[i]) {
+      truncated += string[i];
     }
   }
-  shortVersion += '...';
-  return shortVersion;
+  return truncated + '...';
 }
+
+// We can first define a variable with empty string
+// we can use a for loop to circle through each letter of string
+// when string at index exist we can add the string value at the index to the variable
