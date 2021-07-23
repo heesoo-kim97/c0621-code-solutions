@@ -6,3 +6,7 @@ function dropRight(array, count) {
   }
   return newArray;
 }
+
+// Define a new variable with empty array
+// using a for loop we can cycle through until the last index to be printed
+// push the value of array to the empty array
