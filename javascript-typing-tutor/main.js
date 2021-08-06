@@ -4,7 +4,7 @@ var i = 0;
 
 function keyHandler(event) {
   $span[i].className = 'underline';
-  if (i === ($span.length - 1)) {
+  if (i === ($span.length)) {
     $span[i].className = 'right';
   } else if (event.key === $span[i].textContent) {
     $span[i].className = 'right';
