@@ -1,0 +1,500 @@
+   66  git status
+   67  git add js/main.js
+   68  git status
+   69  git commit -m "Defined a function that takes a single journal entry object and return DOM tree."
+   70  git push origin feature-issue-2-view-their-entries
+   71  cd ~/repos
+   72  git clone git@github.com:heesoo-kim97/week-planner
+   73  git clone git@github.com:16hsuisaac/week-planner
+   74  cd week-planner
+   75  git status
+   76  npm ci
+   77  git pull origin master
+   78  git status
+   79  git add indext.html styles.css
+   80  git status
+   81  git add index.html styles.css
+   82  git status
+   83  git commit -m "Made rows and changes to modal."
+   84  git push origin master
+   85  git pull origin master
+   86  git status
+   87  git add main.js styles.css
+   88  git status
+   89  git commit -m "worked on some js."
+   90  git push origin master
+   91  git pull origin master
+   92  git status
+   93  git add main.js
+   94  git commit -m "Worked on table."
+   95  git status
+   96  git restore --staged main.js
+   97  git add main.js
+   98  git status
+   99  git commit -m "Worked on table."
+  100  git push origin master
+  101  git pull origin master
+  102  cd ~/repos/c0621-code-solutions
+  103  git status
+  104  git branch javascript-custom-methods
+  105  git switch javascript-custom-methods
+  106  git status
+  107  git add javascript-custom-methods
+  108  git status
+  109  git commit -m "Completed javascript-custom-methods."
+  110  git push origin javascript-custom-methods
+  111  git status
+  112  git switch master
+  113  git pull origin master
+  114  git status
+  115  git status
+  116  git status
+  117  git branch javascript-this
+  118  git swtich javasccript-this
+  119  git switch javascript-this
+  120  git status
+  121  git add javascript-this
+  122  git status
+  123  git commit -m "Completed javascript-this exercise."
+  124  git push origin javascript-this
+  125  git switch master
+  126  git pull origin master
+  127  git branch javascript-prototypes
+  128  git switch javascript-prototypes
+  129  git status
+  130  git status
+  131  git add javascript-prototypes
+  132  git staus
+  133  git status
+  134  git commit -m "Completed javascript-prototypes."
+  135  git push origin javascript-prototypes
+  136  git switch master
+  137  git status
+  138  git branch javascript-constructors
+  139  git status
+  140  git switch javascript-constructors
+  141  git status
+  142  git status
+  143  git add javascript-constructors
+  144  git status
+  145  git commit -m "Completed javascript-constructors."
+  146  git push origin javascript-constructors
+  147  git switch master
+  148  git pull origin master
+  149  git pull origin master
+  150  git status
+  151  git checkout string-manipulation-2
+  152  git status
+  153  git add string-manipulation-2
+  154  git status
+  155  git commit -m "worked on captial-word algorithms."
+  156  git add string-manipulation-2
+  157  git commit -m "worked on capitalize word."
+  158  git switch master
+  159  cd ~/repos/c0621-code-solutions
+  160  git status
+  161  git branch javascript-bank
+  162  git switch javascript-bank
+  163  git status
+  164  git status
+  165  git add javascript-bank
+  166  git status
+  167  git commit -m "Completed javascript-bank."
+  168  git push origin javascript-bank
+  169  git status
+  170  git switch master
+  171  git swtich string-manipulation-2
+  172  git switch string-manipulation-2
+  173  git add string-manipulation-2
+  174  git status
+  175  git commit -m "Completed string-manipulation-2."
+  176  git push string-manipulation-2
+  177  git push string-manipulation-2
+  178  git status
+  179  git push origin string-manipulation-2
+  180  git status
+  181  git switch master
+  182  git branch array-manipulation-2
+  183  git switch array-manipulation-2
+  184  git status
+  185  git add array-manipulation-2
+  186  git commit -m "Completed take exercise."
+  187  git status
+  188  git switch master
+  189  git status
+  190  git status
+  191  git branch javascript-timers
+  192  git switch javascript-timers
+  193  git status
+  194  git add javascipt-timers
+  195  git add javascript-timers
+  196  git commit -m "completed javascript-timers."
+  197  git push origin javascript-timers
+  198  git switch master
+  199  git pull origin master
+  200  git switch array-manipulation-2
+  201  git add array-manipulation-2
+  202  git commit -m "almost done with array-manipulation-2."
+  203  cd ~/repos/c0621-code-solutions
+  204  git sstatus
+  205  git status
+  206  git switch master
+  207  git pull origin master
+  208  git status
+  209  git branch javascript-carousel
+  210  git switch javascript-carousel
+  211  git status
+  212  git add javascript-carousel
+  213  git status
+  214  git commit -m "Completed javascript-carousel."
+  215  git push origin javascript-carousel
+  216  git status
+  217  git switch master
+  218  cd ~/repos
+  219  git clone https://github.com/heesoo-kim97/driving-game
+  220  cd driving-game
+  221  npm ci
+  222  git status
+  223  git branch issue-1-see-car
+  224  git switch issue-1-see-car
+  225  git status
+  226  git status
+  227  git add index.html style.css
+  228  git status
+  229  git commit -m "Completed issue 1 - F1 car is visible on top right of the window with appropriate size."
+  230  git push origin issue-1-see-car
+  231  git remote set-url orgin new-ssh-url
+  232  git remote set-url origin new-ssh-url
+  233  git remote set-url origin git@github.com:heesoo-kim97/driving-game.git
+  234  git status
+  235  git push origin issue-1-see-car
+  236  git status
+  237  git switch master
+  238  git status
+  239  git branch issue-2-turn-their-car
+  240  git switch issue-2-turn-their-car
+  241  git status
+  242  git switch master
+  243  git pull origin master
+  244  git switch issue-2-turn-their-car
+  245  git status
+  246  git pull origin master
+  247  git switch master
+  248  git status
+  249  git pull orgin master
+  250  git pull origin master
+  251  git switch issue-2-turn-their-car
+  252  git status
+  253  git pull origin master
+  254  git add main.js index.html
+  255  git status
+  256  git commit -m "Created main.js and added script tag to HTML."
+  257  git status
+  258  git add index.html styles.css
+  259  git add index.html style.css
+  260  git status
+  261  git commit -m "defined class for each rotation and added transform in css."
+  262  git add main.js style.css
+  263  git status
+  264  git commit -m "defined variable that selects the image of the car and added eventlister."
+  265  git add main.js style.css
+  266  git status
+  267  git commit -m "defined variable to select image of the car and added EventListner."
+  268  git status
+  269  git add main.js style.css
+  270  git status
+  271  git commit -m "define the function to make specific keys to rotate the car."
+  272  git push origin issue-2-turn-their-car
+  273  git status
+  274  git switch master
+  275  git status
+  276  git pull origin master
+  277  git branch issue-3-start-their-car
+  278  git switch issue-3-start-their-car
+  279  git status
+  280  curl -sS https://lfz-static.s3-us-west-1.amazonaws.com/dev-environment/mac-installer.bash | bash
+  281  dev-env
+  282  dev-env
+  283  cd ~/repos
+  284  --list
+  285  pwd
+  286  --list
+  287  cd ~/repos/c0621-code-solutions
+  288  cd http-messages
+  289  cd ~/http-messages
+  290  cd ~/repos/c0621-code-solutions/http-messages
+  291  cd~/repos/c0621-code-solutions/http-messages
+  292  cd ~/repos/c0621-code-solutions/https-messages
+  293  cd ~/repos/c0621-code-solutions/http-messages
+  294  git branch http-messages
+  295  git switch http-messages
+  296  http http://example.com
+  297  bew install httpie
+  298  brew install httpie
+  299  http http://www.example.com
+  300  http --verbose http://www.example.com
+  301  http --body GET https://jsonplaceholder.typicode.com/users > users.json
+  302  http --body GET https://example.com > index.html
+  303  git status
+  304  git add ./
+  305  git status
+  306  git commit -m "completed http-messages."
+  307  git push origin http-messages
+  308  git 
+  309  git cd~/repos/c0621-code-solutions
+  310  cd ~/repos/c0621-code-solutions
+  311  git status
+  312  git switch master
+  313  git pull origin master
+  314  git branch javascript-ajax
+  315  git switch javascript-ajax
+  316  git status
+  317  git status
+  318  git add javascript-ajax
+  319  git status
+  320  git commit -m "Completed javascript-ajax."
+  321  git push origin javascript-ajax."
+  322  clear
+  323  git status
+  324  https httpie.io/hello
+  325  cd ~/repos
+  326  git clone git@github.com:heesoo-kim97/ajax-project.git
+  327  cd ajax-porject
+  328  cd ajax-project
+  329  npm ci
+  330  git status
+  331  cd ~/repos/ajax-project
+  332  git status
+  333  git branch feature-1-user-can-click-play-or-rules
+  334  git switch feature-1-user-can-click-play-or-rules
+  335  git status
+  336  git status
+  337  git add css/styles/css index.html
+  338  git add css/styles.css index.html
+  339  git status
+  340  git commit -m "displayed home page with card image and blackjack title."
+  341  git push origin feature-1-user-can-click-play-or-rules
+  342  git status
+  343  cd~/repos/ajax-project
+  344  cd ~/repos/ajax-projec
+  345  cd
+  346  git status
+  347  cd ~/repos/ajax-project
+  348  git status
+  349  git status
+  350  git add index.html js.data.js
+  351  git add index.html js/data.js
+  352  git commit -m "added data model and css to dealer letter."
+  353  cd ~/repos/ajax-project
+  354  git status
+  355  git status
+  356  git add index.html js/main.js
+  357  git status
+  358  git commit -m "added data model and fuction to get api dex of cards."
+  359  git status
+  360  git add css/styles.css index.html js/main.js
+  361  git status
+  362  git commit -m "added function that draws two random cards."
+  363  git status
+  364  git add js/main.js
+  365  git status
+  366  git commit -m "Made function that allows two cards to be drawn."
+  367  git push origin feature-3-user-can-click-start-and-view-the-cards
+  368  git status
+  369  git status
+  370  cd ~/repos/c0621-code-solutions
+  371  git status
+  372  git branch javaascript-ajax-recap
+  373  git switch javascript-ajax-recap
+  374  git branch javascript-ajax-recap
+  375  git switch javascript-ajax-recap
+  376  git status
+  377  git status
+  378  git add javascript-ajax-recap
+  379  git status
+  380  git commit -m "Completed the recap of javascript-ajax."
+  381  git push origin javascript-ajax-recap."
+  382  cd ~/repos/c0621-code-solutions
+  383  git status
+  384  git switch dom-manipulation-recap
+  385  git status
+  386  git push origin dom-manipulation-recap
+  387  git status
+  388  git status
+  389  git 
+  390  cd ~/repos/ajax-project
+  391  git status
+  392  git add index.html js/main.js
+  393  git status
+  394  git commit -m "modified function to draw two random cards for the player and the dealer."
+  395  git push origin feature-3-user-can-click-start-and-view-the-cards
+  396  cd ~/repos/c0621-code-solutions
+  397  git status
+  398  git switch master
+  399  git switch object-manipulation-2
+  400  git branch object-manipulation-2
+  401  git switch oject-manipulation-2
+  402  gitswitch object-manipulation-2
+  403  git switch object-manipulation-2
+  404  git status
+  405  git add object-manipulation-2
+  406  git status
+  407  git commit -m "completed pick.js."
+  408  heroku logs --tail
+  409  cd ~/repos/c0621-code-solutions
+  410  git status
+  411  git switch master
+  412  git switch javascript-typing-tutor
+  413  git stataus
+  414  git status
+  415  git add javascript-typing tutor
+  416  git add javascript-typing-tutor
+  417  git commit "changed $span.length appropriately in order for the full sentence to be right."
+  418  git commit -m "changed $span.length appropriately in order for the full sentence to be right."
+  419  git push origin javascript-typing-tutor
+  420  git switch master
+  421  git pull origin master
+  422  cd ~/repos/c0621-code-solutions
+  423  git status
+  424  git branch es6-const-let
+  425  git switch es6-const-let
+  426  git status
+  427  git add es6-const-let
+  428  git status
+  429  git commit -m "Completed es6-const-let assignment."
+  430  git push origin es6-const-let
+  431  git status
+  432  git switch master
+  433  git status
+  434  git switch object-manipulation-2
+  435  git status
+  436  git status
+  437  git add object-manipulation-2
+  438  git status
+  439  git commit -m "working on omit."
+  440  git switch master
+  441  git status
+  442  git switch es6-const-let
+  443  git switch master
+  444  git branch es6-template-literals
+  445  git switch es6-template-literals
+  446  git status
+  447  git status
+  448  git add es6-template-literals
+  449  git status
+  450  git commit -m "Completed es6-template-lierals."
+  451  git push origin es6-template-literals
+  452  git switch master
+  453  git status
+  454  git status
+  455  git add es6-destructuring
+  456  git commit -m "completed es6-destructuring."
+  457  git push origin es6-destructuring
+  458  git push origin es6-destructuring
+  459  git status
+  460  git branch es6-destructuring
+  461  git switch es6-destructuring
+  462  git status
+  463  git add es6-destructuring
+  464  git status
+  465  git commit -m "Completed es6-destructuring."
+  466  git push origin es6-destructuring
+  467  git status
+  468  git switch master
+  469  git pull origin master
+  470  cd ~/repos/c0621-code-solutions
+  471  git status
+  472  git reset --soft HEAD-1
+  473  git reset --soft HEAD~1
+  474  git commit -m "es6 first two assignments."
+  475  git push origin master
+  476  git status
+  477  git switch es6-destructuring
+  478  git status
+  479  git add es6-destructuring
+  480  git commit -m "added a comment."
+  481  git push origin es6-destructuring
+  482  git switch master
+  483  git status
+  484  git branch es6-arrow-functions
+  485  git switch es6-arrow-functions
+  486  git status
+  487  git status
+  488  git add es6-arrow-functions
+  489  git status
+  490  git commit -m "Completed es6-arrow-functions."
+  491  git push origin es6-arrow-functions
+  492  git status
+  493  git status
+  494  git switch master
+  495  cd ~/repos/c0621-code-solutions
+  496  git status
+  497  git pull origin master
+  498  git status
+  499  cd ~/repos/c0621-code-solutions
+  500  git status
+  501  git switch es6-arrow-functions
+  502  switch master
+  503  git switch master
+  504  git branch command-line-basics
+  505  git switch command-line-basics
+  506  git status
+  507  cd command-line-basicks
+  508  cd command-line-basics
+  509  pwd
+  510  man man
+  511  man cat
+  512  cat laziness.txt impatience.txt hubris.txt
+  513  cat laziness.txt impatience.txt hubris.txt > three-virtues.txt
+  514  cat three-virtues.txt
+  515  man ls
+  516  man ca
+  517  man cat
+  518  man man
+  519  ls
+  520  ls -a
+  521  ls -F
+  522  ls lfz-staff/
+  523  ls -a
+  524  ls -aF lfz-staff > lfz-staff/contents.txt
+  525  cat lfz-staff/contents.txt
+  526  man pwd
+  527  pwd
+  528  pwd > i-was-here.txt
+  529  ls
+  530  cat i-was-here.txt
+  531  man echo
+  532  echo 'Hello, World!'
+  533  echo 'Hello, World!' > hello.txt
+  534  ls
+  535  cat hello.txt
+  536  man touch
+  537  touch tag-youre-it.txt
+  538  touch snoot/boop.txt
+  539  ls
+  540  ls snoot
+  541  man mkdir
+  542  mkdir parent
+  543  ls
+  544  mkdir -p parent/child/grandchild
+  545  touch parent/child/grandchild/.gitkeep
+  546  ls -a
+  547  man mv
+  548  mv pokiemans pokemon
+  549  ls
+  550  man rm
+  551  man mv
+  552  man rm
+  553  rm lol.txt
+  554  ls
+  555  rm -r kill-me/
+  556  ls
+  557  man cp
+  558  cp and-then.txt no-and-then.txt
+  559  ls 
+  560  cat and-then.txt
+  561  cat and-then.txt no-and-then.txt
+  562  man history
+  563  history
+  564  git status
+  565  history > command-history.txt
