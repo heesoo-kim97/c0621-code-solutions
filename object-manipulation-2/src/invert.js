@@ -1,12 +1,8 @@
 /* exported invert */
 function invert(source) {
   const newObject = {};
-  if (source === undefined) {
-    return {};
-  } else {
-    for (const keys in source) {
-      newObject[source[keys]] = keys;
-    }
+  for (const keys in source) {
+    newObject[source[keys]] = keys;
   }
   return newObject;
 }
