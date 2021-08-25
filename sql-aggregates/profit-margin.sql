@@ -1,0 +1,4 @@
+-- select "films"."title",
+--        "films"."description",
+--        sum("Payments"."amount")
+--   from ""
