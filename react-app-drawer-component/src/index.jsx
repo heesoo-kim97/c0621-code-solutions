@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import AppDrawer from './app-drawer.jsx';
 
-const element = <h1>Hello World!</h1>;
-
-ReactDOM.render(element, document.querySelector('#root'));
+ReactDOM.render(<AppDrawer />, document.querySelector('#root'));
