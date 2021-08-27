@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  font-family: 'Patrick Hand', sans-serif;
+}
+
+.main {
+  height: 100vh;
+  background-position: center;
+  background-size: 555px;
+}
+
+.menu-icon {
+  font-size: 32px;
+  margin: 10px 15px;
+}
+
+.menu-icon:hover {
+  cursor: pointer;
+}
+
+.appDrawer-background {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.appDrawer-background-show {
+  width: 100%;
+  opacity: 1;
+  transition: opacity 0.25s;
+}
+
+.appDrawer-background-hide {
+  width: 0;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.appDrawer {
+  background-color: white;
+  height: 100vh;
+  width: 300px;
+  position: absolute;
+  top: 0;
+}
+
+.appDrawer-closed {
+  left: -300px;
+  transition: left 0.25s;
+}
+
+.appDrawer-opened {
+  left: 0;
+  transition: left 0.25s;
+}
+
+.appDrawer-menu,
+.appDrawer-option {
+  padding: 10px 25px;
+  letter-spacing: 1px;
+}
+
+.appDrawer-option:hover {
+  cursor: pointer;
+  background-color: #e7e7e7;
+}
