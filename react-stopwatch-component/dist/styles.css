@@ -1,0 +1,23 @@
+.container {
+  margin: 4rem auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.watch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+  border: 0.2rem solid black;
+  border-radius: 50%;
+  width: 15rem;
+  height: 15rem;
+}
+
+.count {
+  font-family: sans-serif, monospace;
+  font-size: 4rem;
+}
