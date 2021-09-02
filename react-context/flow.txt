@@ -8,16 +8,48 @@ After React elements are rendered we pass App.state.user
 
 
 User can Sign up
-  - When user clicks register button, it changes the hash value to '#sign-up'. This will lead to another rendering of App.
-    Therefore, we go to App.render() again
+  - When user clicks register button, it changes the hash property of the location to '#sign-up'. This triggers eventlistener for haschange.
+  - This will lead to another rendering of App.
+  - render method creates new page and checks for route ('sign-up') property of the state property
+  - The react element Auth is created and check if user is valid
+  - Appropriate messages will pop up
+  - the state property for the AuthForm component changes because of handleChange method
+  - if there is a change - it will cycle through react lifecycle
+  - User will then submit which sends a POST request to api/auth/sign-up
+  - The server will receive POST request and check for the same http method and request url
+  - The server also checks if fields are filled out
+  - Hashed password username and password is put into pgweb table
+  - Then the hash location will change to 'sign-in'
 
 User can Sign in
-  - After rendering the page, the handleSignOut() method is called
+  - The values of user's input will be stored in the state property just like sign-up and render since input changes
+  - User will submit sign-in which triggers a POST request to the /api/auth/sign-in through fetch function
+  - The server recieves the request and using matching http method and url it runs the function
+  - If req.body does not contain username and password, new ClientError will be thrown and send status code 401
+  - db query will return the password and username
+  - if the has password matches the user's input for sign-in password - token is provided
+  - The provided token is sent as the response in JSON with properties and user
+  - The response will be parsed and call onSignIn method()
+  - the state is now changed with user property and the value of the user variable from destructuring
+  - After state the render method is ran again
+  - The token is stored in localStorage with 'react-context-jwt' and due to condtional check, the token is passed to decodeToken function
+  - the returned value from decodeToken function is assigned to variable user and passed to setState method as a property
+  - isAuthorizing will have value of false
+  - When the state changes render method runs again due to react lifecycle
+  - renderPage method is called with route as 'sign-in' and renders Auth react element
+  - If user matches the information in Auth react element it returns Redirect return element
+  - hash property value is changed to '#' and eventlistener will trigger the change of route porperty of the state
 
 User can stay signed in
-  - when page is reloaded - componentDidMount will called again which will check for token in localStorage
-  If token is there, state holds the user information and the page is rerendered like the user is signing in so that user stays signed in.
+  - when page is reloaded - componentDidMount will be called again which will check for token in localStorage
+  - If token is there, state holds the user information and the page is rerendered like the user is signing in so that user stays signed in.
 
 User can sign out
-  - When user signs out - componentDidMount is called again, but will check for token in localStorage which is not present. And when the sign out button is clicked the onClick event handler fires
+  - When user signs out - componentDidMount is called again, but will check for token in localStorage which is not present.
+  - When the sign out button is clicked the onClick event handler fires
   and handleSignOut() method gets called
+  - user property now is null in the state
+  - From the React element PageContainer we call the renderPage method
+  - The path is '' and return class Home
+  - Home redirects to sign-in
+  - The haschange event listener is triggered and route is changed to new hash
