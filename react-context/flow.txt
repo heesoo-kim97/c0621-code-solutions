@@ -1,0 +1,23 @@
+How the flow works
+
+We first go through the mounting phase where we check App.componentDidMount(). Through App.componentDidMount() we can check
+if the token is stored in localStorage and the isAuthorizing is set to false
+
+We now go to App.render() and since is Authorizing is falsy value we continue on render method. We return React Elements in the App.render()
+After React elements are rendered we pass App.state.user
+
+
+User can Sign up
+  - When user clicks register button, it changes the hash value to '#sign-up'. This will lead to another rendering of App.
+    Therefore, we go to App.render() again
+
+User can Sign in
+  - After rendering the page, the handleSignOut() method is called
+
+User can stay signed in
+  - when page is reloaded - componentDidMount will called again which will check for token in localStorage
+  If token is there, state holds the user information and the page is rerendered like the user is signing in so that user stays signed in.
+
+User can sign out
+  - When user signs out - componentDidMount is called again, but will check for token in localStorage which is not present. And when the sign out button is clicked the onClick event handler fires
+  and handleSignOut() method gets called
