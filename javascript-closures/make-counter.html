@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Closures Make-Counter</title>
+</head>
+<body>
+  <script>
+    const makeCounter = function () {
+      let count = 0;
+      function changeBy(value) {
+        count += value;
+      }
+
+      return {
+        increment: function () {
+          changeBy(1);
+        },
+        decrement: function () {
+          changeBy(-1);
+        },
+        value: function () {
+          return count;
+        }
+      };
+    };
+
+    const count1 = makeCounter();
+    const count2 = makeCounter();
+
+    count1.increment();
+    count1.increment();
+    count2.increment();
+
+    console.log('count1 value is:', count1.value());
+    console.log('count2 value is:', count2.value());
+
+    count1.decrement();
+    count2.decrement();
+
+    console.log('count1 value is:', count1.value());
+    console.log('count2 value is:', count2.value());
+  </script>
+</body>
+</html>
