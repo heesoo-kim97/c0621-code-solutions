@@ -11,3 +11,4 @@ function getKeys(object) {
 // we first need to assign empty array to a new variable
 // use for in loop to execute once for each property
 // push into the array and return the value
+// return array
